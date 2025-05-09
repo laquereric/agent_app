@@ -1,0 +1,9 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+install yarn
+use ruby 3.4.3
+use rails 7.1.5.1
+for each gem in ./local_gems the Gemfile should have an entry

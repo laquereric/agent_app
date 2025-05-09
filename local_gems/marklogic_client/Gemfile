@@ -1,0 +1,15 @@
+source "https://rubygems.org"
+
+gemspec
+
+gem "activesupport", "~> 7.0"
+gem "activemodel", "~> 7.0"
+
+# gem "pry" # For debugging
+
+group :development, :test do
+  gem "rspec", "~> 3.0"
+  gem "webmock", "~> 3.0" # For mocking HTTP requests in tests
+  gem "rake", "~> 13.0"
+end
+
