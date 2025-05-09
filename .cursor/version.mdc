@@ -3,7 +3,16 @@ description:
 globs: 
 alwaysApply: false
 ---
-install yarn
-use ruby 3.4.3
-use rails 7.1.5.1
 for each gem in ./local_gems the Gemfile should have an entry
+
+install rbenv
+upgrade ruby-build
+
+determine the latest rails version and compatible ruby version
+use rbenv install --list-all or rbenv install -l to find compatible ruby version
+consider .ruby-version and Gemfile when setting ruby version
+
+use rails 8.x
+reconcile rails and ruby versions
+
+install yarn
